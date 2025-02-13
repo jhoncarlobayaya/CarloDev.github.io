@@ -24,7 +24,7 @@ const button = document.getElementById("myBtn");
 
             message.textContent = "HAPPY VALENTINES DAY";
             paragraph.textContent =
-                "ayy hala pinindot nya nga AHHAHAHAHA kinilig to' chariz anw, happy valentine's day sana may gift ako sayo mamaya pag wala kotong ka saken lima ahahhaha charot, seryoso  happy valentine's day to you and i hope this day will be a memorable one for you, and wag kanang mag papakatanga ulet maraming iba jan HAHAHAHAHAH so yun lg";
+                "May this day remind you of how special you are, how loved you are, and how much you mean to those around you. Take a deep breath, appreciate the love that surrounds you, and don’t forget to spread love and positivity wherever you go.Wishing you a Valentine’s Day filled with warmth, happiness, and beautiful memories! 💖😊";
         
             const backgroundColor = "#10002b";
             const cyan = "violet";
