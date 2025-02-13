@@ -1082,3 +1082,102 @@ mask-image: linear-gradient(to top, transparent 40%, #7b2cbf 80%) !important;
 .not-loaded * {
   animation-play-state: paused !important;
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 5px;
+    font-size: clamp(1rem, 1.5rem, 2rem);
+  }
+
+  .container {
+    padding: 20px;
+    height: auto;
+  }
+
+  .h1 {
+    font-size: 2rem;
+  }
+
+  .p, .p1 {
+    font-size: 0.875rem;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 1rem;
+  }
+
+  .flowers {
+    transform: scale(0.3);
+    bottom: 60vmin;
+  }
+
+  .flower__leaf {
+    width: 6vmin;
+    height: 8vmin;
+  }
+
+  .flower__line {
+    height: 40vmin;
+  }
+
+  .flower__line__leaf {
+    --w: 5vmin;
+    --h: calc(var(--w) + 1.5vmin);
+  }
+
+  .flower__grass {
+    bottom: 8vmin;
+  }
+
+  .flower__grass--top {
+    width: 5vmin;
+    height: 7vmin;
+  }
+
+  .flower__grass--bottom {
+    height: 20vmin;
+  }
+
+  .flower__grass__leaf {
+    --size: 7vmin;
+  }
+
+  .flower__g-long {
+    bottom: 8vmin;
+  }
+
+  .flower__g-long__top {
+    width: calc(var(--w) + 0.8vmin);
+    height: var(--h);
+  }
+
+  .flower__g-long__bottom {
+    height: 40vmin;
+  }
+
+  .flower__g-right .leaf {
+    width: 20vmin;
+    height: 35vmin;
+  }
+
+  .flower__g-front__leaf {
+    width: 7vmin;
+    height: 7vmin;
+  }
+
+  .flower__g-fr .leaf {
+    width: 20vmin;
+    height: 35vmin;
+  }
+
+  .flower__g-fr__leaf {
+    width: 7vmin;
+    height: 7vmin;
+  }
+
+  .long-g .leaf {
+    --w: 10vmin;
+    --h: 30vmin;
+  }
+}
